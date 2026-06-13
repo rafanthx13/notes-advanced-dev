@@ -2,7 +2,7 @@
 
 Publicado no github pages usando (Quartz)[https://quartz.jzhao.xyz/]
 
-## Como executar
+## Como executar localmente
 
 npx quartz build --serve
 
