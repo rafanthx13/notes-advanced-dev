@@ -1,0 +1,8 @@
++ [[domain-model]] (cap9)
++ [[service-layer]] (cap9)
++ [[active-record]] (cap10)
++ [[data-mapper]] (cap10)
++ [[repository]] (cap13)
++ [[model-view-controller]] (cap14)
++ [[front-controller]] (cap14)
++ [[data-transfer-object]] (cap15)
