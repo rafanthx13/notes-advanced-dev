@@ -7,7 +7,7 @@ body {
 }
 
 .page {
-  max-width: 1400px;
+  max-width: 1800px;
 }
 
 article {
@@ -15,10 +15,41 @@ article {
   line-height: 1.8;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-weight: 700;
 }
 
 code {
   border-radius: 6px;
+}
+
+// The desktop explorer needs to allow its content to expand when toggled.
+@media all and (min-width: 801px) {
+  .explorer {
+    overflow-y: visible;
+  }
+}
+
+// Folder and tag listings do not need per-note dates; keep dates inside notes.
+.page-listing .section > .meta {
+  display: none;
+}
+
+.page-listing .section {
+  grid-template-columns: minmax(0, 1fr) auto;
+}
+
+// Give the document title breathing room below the breadcrumbs.
+.article-title {
+  margin-top: 1.5rem !important;
+}
+
+// On wide screens, let the center column use the additional viewport width.
+@media all and (min-width: 1401px) {
+  .page > #quartz-body {
+    grid-template-columns: 320px minmax(0, 1fr) 320px;
+    column-gap: 1.5rem;
+  }
 }

@@ -17,3 +17,4 @@ https://chatgpt.com/share/6a38b501-3cb8-83e9-b5b8-fa0a0bfaf2ce
 ## Como executar
 
 Só fazer o push. O git executa o git action e atualiza, demora uns 3 minutos
+

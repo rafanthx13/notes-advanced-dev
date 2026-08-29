@@ -1,0 +1,1 @@
++ A págian inicial `content/index.md` é obrigatória
