@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: rafanthx13.github.io/notes-advanced-dev
+  baseUrl: dev-notes.rafaelmassis.com.br
   ignorePatterns:
     - private
     - templates
